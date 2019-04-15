@@ -1,0 +1,134 @@
+// Your customize CSS
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  background-color: #fafafa;
+  padding: 4rem 0;
+}
+
+// Header section
+
+// govau header
+.headergovau {
+  background-color: #18335c;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  position: relative;
+  font-size: 0.75rem;
+  line-height: 1;
+  padding: 0 0.75rem;
+}
+.headergovau__bar {
+  padding: 8px 0;
+  min-height: 12px;
+  a {
+    color: #fff;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .headergovau__bar {
+    text-align: right;
+  }
+}
+.headergovau__bar a:focus {
+  outline: 2px solid #C390F9;
+  outline-offset: 2px;
+}
+.headergovau__bar a::-moz-focus-inner {
+  border: 0;
+}
+.headergovau__button:hover {
+  text-decoration: none;
+}
+.headergovau__publisher:hover {
+  text-decoration: none;
+}
+
+/* Service Header */
+.serviceHeader {
+    background-color: #254f90;
+    /*min-height: 76px;*/
+    padding: 16px 12px;
+    vertical-align: middle;
+}
+
+@media only screen and (min-width: 768px) {
+    .serviceHeader {
+        padding: 26px;
+    }
+}
+
+.rdti-crest {
+    height: 44px;
+    width: 264px;
+}
+
+.account-icon {
+    height: 36px;
+    width: 36px;
+    @media (min-width: 576px) {
+        height: 44px;
+        width: 44px;
+    }
+}
+
+.bga-mobile-logo {
+    height: 12px;
+    width: 104px;
+    @media only screen and (min-width: 576px) {
+        height: 16px;
+        width: 122px;
+    }
+}
+
+// navbar
+.navbar {
+  padding: 0;
+  .nav-item {
+    min-width: 100px;
+    text-align: center;
+    line-height: 64px;
+  }
+  li.active {
+    box-shadow: 0;
+    a {
+      color: #474747 !important;
+      font-weight: 800;
+    }
+  }
+  a.nav-link {
+    padding: 0;
+    &:hover {
+      background-color: #BFC6CC;
+      color: #007bff;
+    }
+  }
+  @media only screen and (min-width: 576px) {
+    li.active {
+      box-shadow: inset 0 -4px 0 #BFC6CC;
+    }
+  }
+} 
+
+.dropdown-toggle::after {
+  display:none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../public/images/icon-hamburger.svg");
+}
+
+// footer
+footer {
+  background-color: #254f90;
+  height: 96px;
+  color: #ffffff;
+  padding: 1.5rem 0;
+}
