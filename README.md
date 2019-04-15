@@ -49,8 +49,8 @@ Hence, this repo is suitable for simple projects.
 Let's go!
 
 ```
-$ git clone https://github.com/xxhomey19/bootstrap-webpack-jquery-boilerplate.git
-$ cd bootstrap-webpack-jquery-boilerplate
+$ git clone https://github.com/AUSGov/rdti-template.git
+$ cd rdti-template
 $ yarn // or npm install
 ```
 
