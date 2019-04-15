@@ -132,3 +132,19 @@ footer {
   color: #ffffff;
   padding: 1.5rem 0;
 }
+
+// tile icons
+.card {
+  padding: 32px;
+  background: white;
+  &:hover {
+    background: #254f90;
+    svg {
+      fill: #fff;
+    }
+  }
+}
+svg {
+  fill: #254f90;
+  height: 60px;
+}
