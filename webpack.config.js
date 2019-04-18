@@ -103,8 +103,30 @@ const config = {
         removeComments: true,
       },
     }),
-    new MiniCssExtractPlugin({
+    new HtmlWebPackPlugin({
+      filename: 'signin',
+      template: path.resolve(__dirname, './src/signin.html'),
+      minify: !IS_DEV && {
+        collapseWhitespace: true,
+        preserveLineBreaks: true,
+        removeComments: true,
+      },
+    }),
+    new HtmlWebPackPlugin({
+      filename: 'register',
+      template: path.resolve(__dirname, './src/register.html'),
+      minify: !IS_DEV && {
+        collapseWhitespace: true,
+        preserveLineBreaks: true,
+        removeComments: true,
+      },
+    }),
+    /*new MiniCssExtractPlugin({
       filename: IS_DEV ? 'css/[name].css' : 'css/[name].[contenthash].css',
+      chunkFilename: 'css/[id].css',
+    }),*/
+    new MiniCssExtractPlugin({
+      filename: IS_DEV ? 'css/index.css' : 'css/index.css',
       chunkFilename: 'css/[id].css',
     }),
     new webpack.HashedModuleIdsPlugin(),
