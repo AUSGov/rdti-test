@@ -104,7 +104,7 @@ const config = {
       },
     }),
     new HtmlWebPackPlugin({
-      filename: 'signin',
+      filename: 'signin.html',
       template: path.resolve(__dirname, './src/signin.html'),
       minify: !IS_DEV && {
         collapseWhitespace: true,
@@ -113,7 +113,7 @@ const config = {
       },
     }),
     new HtmlWebPackPlugin({
-      filename: 'register',
+      filename: 'register.html',
       template: path.resolve(__dirname, './src/register.html'),
       minify: !IS_DEV && {
         collapseWhitespace: true,
