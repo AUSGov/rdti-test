@@ -106,20 +106,10 @@ const config = {
     new HtmlWebPackPlugin({
       filename: 'signin.html',
       template: path.resolve(__dirname, './src/signin.html'),
-      minify: !IS_DEV && {
-        collapseWhitespace: true,
-        preserveLineBreaks: true,
-        removeComments: true,
-      },
     }),
     new HtmlWebPackPlugin({
       filename: 'register.html',
       template: path.resolve(__dirname, './src/register.html'),
-      minify: !IS_DEV && {
-        collapseWhitespace: true,
-        preserveLineBreaks: true,
-        removeComments: true,
-      },
     }),
     /*new MiniCssExtractPlugin({
       filename: IS_DEV ? 'css/[name].css' : 'css/[name].[contenthash].css',
