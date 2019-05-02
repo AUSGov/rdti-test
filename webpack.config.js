@@ -111,6 +111,10 @@ const config = {
       filename: 'register.html',
       template: path.resolve(__dirname, './src/register.html'),
     }),
+    new HtmlWebPackPlugin({
+      filename: 'components.html',
+      template: path.resolve(__dirname, './src/components.html'),
+    }),
     /*new MiniCssExtractPlugin({
       filename: IS_DEV ? 'css/[name].css' : 'css/[name].[contenthash].css',
       chunkFilename: 'css/[id].css',

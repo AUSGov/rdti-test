@@ -23,18 +23,22 @@
       <div class="serviceHeader">
         <div class="container">
           <div class="row">
-            <div class="col text-left"><a href="#"><img class="rdti-crest" src="public/images/rdti-logo.svg"></a></div>
+            <div class="col text-left">
+              <a href="index.html"><img class="rdti-crest" src="public/images/rdti-logo.svg"></a>
+            </div>
             <div class="col text-right">
               <a class="account dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">
                 <img class="account-icon" src="public/images/icon-user.svg">
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Sign out</a>
-            </div>
-            </a>
+                  <a class="dropdown-item" href="index.html">Home</a>
+                  <a class="dropdown-item" href="signin.html">Sign in</a>
+                  <a class="dropdown-item" href="register.html">Register</a>
+                  <a class="dropdown-item" href="components.html">Components</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Sign out</a>
+                </div>
+              </a>
           </div>
         </div>
       </div>
@@ -51,13 +55,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../signin.html">Sign in</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="../register.html">Register <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="history">History</a>
             </li>
           </ul>
         </div>
@@ -71,18 +72,18 @@
 
       <div class="row">
         <div class="col-md-6 mb-3">
-            <h2 class="mb-3">Create an account</h2>
-            <p style="margin-bottom: 0; margin-top: 0.75rem">To create an account, follow the steps below:</p>
-            <ol>
-                <li>Enter your email address below.</li>
-                <li>Click the <strong>Send verification code</strong> button.</li>
-                <li>Check your email account for an email arriving shortly from "Microsoft on behalf of business.gov.au".</li>
-                <li>Copy the code from your email and return to this page.</li>
-                <li>Enter the verification code into the box that will appear below.</li>
-                <li>Click the <strong>Verify code</strong> button.</li>
-                <li>If this doesn't work, click the <strong>Send new code</strong> button and repeat steps 3 to 6.</li>
-                <li>Fill in the rest of the details and select the <strong>Create</strong> button.</li>
-            </ol>
+          <h2 class="mb-3">Create an account</h2>
+          <p style="margin-bottom: 0; margin-top: 0.75rem">To create an account, follow the steps below:</p>
+          <ol>
+            <li>Enter your email address below.</li>
+            <li>Click the <strong>Send verification code</strong> button.</li>
+            <li>Check your email account for an email arriving shortly from "Microsoft on behalf of business.gov.au".</li>
+            <li>Copy the code from your email and return to this page.</li>
+            <li>Enter the verification code into the box that will appear below.</li>
+            <li>Click the <strong>Verify code</strong> button.</li>
+            <li>If this doesn't work, click the <strong>Send new code</strong> button and repeat steps 3 to 6.</li>
+            <li>Fill in the rest of the details and select the <strong>Create</strong> button.</li>
+          </ol>
         </div>
 
         <div class="col-md-6 mb-3">
@@ -110,7 +111,8 @@
                           <div class="verificationErrorText error" id="email_fail_throttled" style="display:none" aria-hidden="true">There have been too many requests to verify this email address. Please wait a while, then try again.</div>
                           <div class="verificationErrorText error" id="email_fail_code_expired" style="display:none" aria-hidden="true">That code is expired. Please request a new code.</div>
                           <div class="verificationErrorText error" id="email_fail_server" style="display:none" aria-hidden="true">We are having trouble verifying your email address. Please enter a valid email address and try
-                            again.</div>
+                            again.
+                          </div>
                           <div class="verificationErrorText error" id="email_incorrect_format" style="display:none" aria-hidden="true"></div>
                         </div>
 
