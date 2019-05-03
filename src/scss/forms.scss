@@ -1,0 +1,11 @@
+.form-control {
+    padding: 1rem;
+    height: calc(2em + 1.5em + 2px);
+    border-radius: 0;
+    border: 2px solid #D8D8D8;
+}
+
+.custom-select {
+    -webkit-appearance:none;
+    appearance: none;
+}
