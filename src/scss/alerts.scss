@@ -1,0 +1,32 @@
+@import './variables.scss';
+
+.alert {
+    background-color: white;
+    color: $primary;
+    border-radius: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: solid 5px $primary;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    padding: 1.250rem;
+    p {
+        margin: 0;
+    }
+}
+.alert-info {
+    border-left-color: $bluePrimary;
+    background-image: url('../public/images/icon-info.png');
+    background-position: 1.250rem center;
+    padding-left: 4.5rem;
+    color: $matteText;
+}
+.alert-success {
+    border-left-color: $green;
+    background-image: url('../public/images/icon-info.png');
+    background-position: 1.250rem center;
+    padding-left: 4.5rem;
+    color: $matteText;
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="h-100">
+<html lang="en">
 
 <head>
   <meta charset="utf-8" />
@@ -10,7 +10,7 @@
   <title>Components | Joey's RDTI Template</title>
 </head>
 
-<body class="d-flex flex-column h-100">
+<body>
   <header>
     <!-- Global header -->
     <div class="globalRibbon">
@@ -28,29 +28,29 @@
               <a href="index.html"><img class="rdti-crest" src="public/images/rdti-logo.svg"></a>
             </div>
             <div class="col text-right">
-              <a class="account dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
+              <a class="account dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
                 <img class="account-icon" src="public/images/icon-user.svg">
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="index.html">Home</a>
-                  <a class="dropdown-item" href="signin.html">Sign in</a>
-                  <a class="dropdown-item" href="register.html">Register</a>
-                  <a class="dropdown-item" href="components.html">Components</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Sign out</a>
-                </div>
-              </a>
+              <a class="dropdown-item" href="signin.html">Sign in</a>
+              <a class="dropdown-item" href="register.html">Register</a>
+              <a class="dropdown-item" href="components.html">Components</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Sign out</a>
             </div>
+            </a>
           </div>
         </div>
       </div>
+    </div>
     </div>
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md">
       <div class="container">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -68,7 +68,7 @@
   </header>
 
   <!-- Begin page content -->
-  <main class="flex-shrink-0">
+  <main>
     <div class="container">
       <h1 class="mb-3">Components</h1>
       <h2>Form components</h2>
@@ -103,11 +103,54 @@
           <label for="exampleFormControlTextarea1">Example textarea</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
+
+        <div class="alert alert-info" role="alert" aria-live="polite" aria-labelledby="infoTitle">
+          <p id="infoTitle">
+            <span class="sr-only">Information alert:</span> This is an information alert. Your account email address is <strong>randy@randyscandies.com.au</strong>.
+            This cannot be changed; however, you can provide another email address for us to contact you.
+            <a href="#">
+              Find out more
+            </a>
+          </p>
+        </div>
+
+        <div class="alert alert-success" role="alert" aria-live="polite" aria-labelledby="infoTitle">
+          <p id="infoTitle">
+            <span class="sr-only">Success alert:</span> This is a success alert. Hell yeah! Your details have been updated!
+          </p>
+        </div>
+
+        <div class="alert alert-primary" role="alert">
+          This is a primary alert—check it out!
+        </div>
+        <div class="alert alert-secondary" role="alert">
+          This is a secondary alert—check it out!
+        </div>
+        <div class="alert alert-success" role="alert">
+          This is a success alert—check it out!
+        </div>
+        <div class="alert alert-danger" role="alert">
+          This is a danger alert—check it out!
+        </div>
+        <div class="alert alert-warning" role="alert">
+          This is a warning alert—check it out!
+        </div>
+        <div class="alert alert-info" role="alert">
+          This is a info alert—check it out!
+        </div>
+        <div class="alert alert-light" role="alert">
+          This is a light alert—check it out!
+        </div>
+        <div class="alert alert-dark" role="alert">
+          This is a dark alert—check it out!
+        </div>
+
+
       </form>
     </div>
   </main>
 
-  <footer class="footer mt-auto py-3">
+  <footer>
     <div class="container">
       <span class="text-muted">Place sticky footer content here.</span>
     </div>
