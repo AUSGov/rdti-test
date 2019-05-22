@@ -2,7 +2,7 @@
 
 .alert {
     background-color: white;
-    color: $primary;
+    color: $matteText;
     border-radius: 0;
     border-top: 0;
     border-right: 0;
@@ -18,15 +18,40 @@
 }
 .alert-info {
     border-left-color: $bluePrimary;
-    background-image: url('../public/images/icon-info.png');
+    background-image: url('../public/images/icon-info.svg');
     background-position: 1.250rem center;
+    background-size: 32px;
     padding-left: 4.5rem;
-    color: $matteText;
 }
 .alert-success {
     border-left-color: $green;
-    background-image: url('../public/images/icon-info.png');
+    background-image: url('../public/images/icon-success.svg');
     background-position: 1.250rem center;
+    background-size: 32px;
     padding-left: 4.5rem;
-    color: $matteText;
+}
+.alert-warning {
+    border-left-color: $warning;
+    background-image: url('../public/images/icon-warning.svg');
+    background-position: 1.250rem center;
+    background-size: 32px;
+    padding-left: 4.5rem;
+}
+.alert-danger {
+    border-left-color: $red;
+    background-image: url('../public/images/icon-danger.svg');
+    background-position: 1.250rem center;
+    background-size: 32px;
+    padding-left: 4.5rem;
+}
+.alert-secondary {
+    border-left-color: $secondary;
+}
+.alert-light {
+    border-left-color: $lighterGrey;
+}
+.alert-dark {
+    border-left-color: $darkestGrey;
+    color: black;
+    background-color: $darkGrey;
 }

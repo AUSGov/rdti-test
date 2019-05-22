@@ -62,7 +62,7 @@ $magentaTint2:                     #FFECF3;
 // Greys
 $darkestGrey:                      #505050;
 $darkerGrey:                       #707070;
-$darkGrey:                         #A7A7A7;
+$darkGrey:                         #A0A0A0;
 $grey:                             #C4C4C4;
 $lightGrey:                        #C7C7C7;
 $lighterGrey:                      #D8D8D8;
@@ -78,6 +78,9 @@ $greenInteractive:                 #219520;
 $greenTint1:                       #A6D5A6;
 $greenTint2:                       #E8F4E8;
  
+// Warning
+$warning:                          #ffbb33;
+
 // Not so good
 $red:                              #E22C2A;
 $redInteractive:                   #E75755;
@@ -86,6 +89,7 @@ $redTint2:                         #FCE9E9;
  
 
 // --- Text --- //
+$headingText:                     #333333;
 $matteText:                        #474747;
 $link:                             #007bff;
 $linkHover:                        #0F54C3;

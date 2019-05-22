@@ -9,3 +9,66 @@
     -webkit-appearance:none;
     appearance: none;
 }
+
+// Custom radio buttons
+
+/* The custom-control */
+.custom-control-label {
+    position: relative;
+    align-items: center;
+    display: flex;
+    vertical-align: middle;
+    padding: 16px 32px;
+    border: 2px solid $darkGrey;
+    border-radius: 4px;
+    background-color: white;
+    &:hover {
+        border-color: $primary;
+        &::before {
+            border-color: $primary;
+        }
+    }
+    &::before {
+        position: relative;
+        top: 0px;
+        left: -1rem;
+        display: flex;
+        width: 2rem;
+        height: 2rem;
+        pointer-events: none;
+        content: "";
+        background-color: #fff;
+        border: $darkGrey solid 2px;
+    }
+    &::after {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        content: "";
+        background: no-repeat 50% / 50% 50%;
+    }
+}
+.custom-radio {
+    margin-bottom: 0.5rem;
+}
+.custom-control {
+    padding-left: 0;
+}
+.custom-control-input:checked ~ .custom-control-label::before, .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
+    border-color: $primary;
+    background-color: $primary;   
+}
+.custom-control-input:checked ~ .custom-control-label {
+    border-color: $primary;
+    color: $primary;
+    font-weight: bold;
+}
+.custom-control-inline {
+    margin-right: 0.5rem;
+    .custom-control-label {
+        min-width: 140px;
+    }
+}
