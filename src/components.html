@@ -70,17 +70,32 @@
   <!-- Begin page content -->
   <main>
     <div class="container">
-      <h1 class="mb-3">Components</h1>
-      <h2>Form components</h2>
-      <form>
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      <h1>Components</h1>
+
+      <div class="row">
+        <div class="col-md-3">
+          <ul class="sidenav">
+            <li>side nav here</li>
+            <li>nav item 2</li>
+            <li>nav item 3</li>
+            <li>nav item 4</li>
+            <li>nav item 5</li>
+            <li>nav item 6</li>
+            <li>nav item 7</li>
+          </ul>
         </div>
-        <div class="form-group">
-          <!-- Custom select menu (kind of like a dropdown but not a dropdown) -->
-          <label for="exampleFormControlSelect1">Example select</label>
-          <select class="form-control custom-select" id="customSelectMenu">
+
+        <div class="col">
+          <h2>Form components</h2>
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+              <!-- Custom select menu (kind of like a dropdown but not a dropdown) -->
+              <label for="exampleFormControlSelect1">Example select</label>
+              <select class="form-control custom-select" id="customSelectMenu">
             <option>Select your team</option>
             <option>Balmain Tigers</option>
             <option>Sydney Roosters</option>
@@ -88,82 +103,92 @@
             <option>North Sydney Bears</option>
             <option>North Queensland Cowboys</option>
           </select>
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlSelect2">Example multiple select</label>
-          <select multiple class="form-control" id="exampleFormControlSelect2">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect2">Example multiple select</label>
+              <select multiple class="form-control" id="exampleFormControlSelect2">
             <option>1</option>
             <option>2</option>
             <option>3</option>
             <option>4</option>
             <option>5</option>
           </select>
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Example textarea</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Example textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
 
-        <div class="alert alert-info" role="alert" aria-live="polite" aria-labelledby="infoTitle">
-          <p id="infoTitle">
-            <span class="sr-only">Information alert:</span> This is an information alert. Your account email address is <strong>randy@randyscandies.com.au</strong>.
-            This cannot be changed; however, you can provide another email address for us to contact you.
-            <a href="#">
+            <div class="alert alert-info" role="alert" aria-live="polite" aria-labelledby="infoTitle">
+              <p id="infoTitle">
+                <span class="sr-only">Information alert:</span> This is an information alert. Your account email address
+                is <strong>randy@randyscandies.com.au</strong>. This cannot be changed; however, you can provide another
+                email address for us to contact you.
+                <a href="#">
               Find out more
             </a>
-          </p>
-        </div>
+              </p>
+            </div>
 
-        <div class="alert alert-success" role="alert" aria-live="polite" aria-labelledby="infoTitle">
-          <p id="infoTitle">
-            <span class="sr-only">Success alert:</span> This is a success alert. Hell yeah! Your details have been updated!
-          </p>
-        </div>
+            <div class="alert alert-success" role="alert" aria-live="polite" aria-labelledby="infoTitle">
+              <p id="infoTitle">
+                <span class="sr-only">Success alert:</span> This is a success alert. Hell yeah! Your details have been updated!
+              </p>
+            </div>
 
-        <div class="alert alert-primary" role="alert">
-          This is a primary alert—check it out!
-        </div>
-        <div class="alert alert-secondary" role="alert">
-          This is a secondary alert—check it out!
-        </div>
-        <div class="alert alert-danger" role="alert">
-          This is a danger alert—check it out!
-        </div>
-        <div class="alert alert-warning" role="alert">
-          This is a warning alert—check it out!
-        </div>
-        <div class="alert alert-info" role="alert">
-          This is a info alert—check it out!
-        </div>
-        <div class="alert alert-light" role="alert">
-          This is a light alert—check it out!
-        </div>
-        <div class="alert alert-dark" role="alert">
-          This is a dark alert—check it out!
-        </div>
-        <fieldset class="">
-          <legend class="">Radio buttons</legend>
-          <div class="custom-control custom-radio">
-            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-            <label class="custom-control-label" for="customRadio1">Toggle this custom radio</label>
-          </div>
-          <div class="custom-control custom-radio">
-            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-            <label class="custom-control-label" for="customRadio2">Or toggle this other custom radio</label>
-          </div>
+            <div class="alert alert-primary" role="alert">
+              This is a primary alert—check it out!
+            </div>
+            <div class="alert alert-secondary" role="alert">
+              This is a secondary alert—check it out!
+            </div>
+            <div class="alert alert-danger" role="alert">
+              This is a danger alert—check it out!
+            </div>
+            <div class="alert alert-warning" role="alert">
+              This is a warning alert—check it out!
+            </div>
+            <div class="alert alert-info" role="alert">
+              This is a info alert—check it out!
+            </div>
+            <div class="alert alert-light" role="alert">
+              This is a light alert—check it out!
+            </div>
+            <div class="alert alert-dark mb-5" role="alert">
+              This is a dark alert—check it out!
+            </div>
 
-          <div class="custom-control custom-radio custom-control-inline">
-            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
-            <label class="custom-control-label" for="customRadioInline1">Yes</label>
-          </div>
-          <div class="custom-control custom-radio custom-control-inline">
-            <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-            <label class="custom-control-label" for="customRadioInline2">No</label>
-          </div>
+            <fieldset class="mb-5">
+              <legend class="mb-3">Radio buttons</legend>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio1">Toggle this custom radio</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio2">Very long radio button label. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</label>
+              </div>
 
-        </fieldset>
+              <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                <label class="custom-control-label" for="customRadioInline1">Yes</label>
+              </div>
+              <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                <label class="custom-control-label" for="customRadioInline2">No</label>
+              </div>
 
-      </form>
+            </fieldset>
+
+            <div class="buttonGroup">
+              <button class="btn btn-default">Button default</button>
+              <button class="btn btn-primary">Button primary</button>
+            </div>
+
+          </form>
+        </div>
+      </div>
     </div>
   </main>
 

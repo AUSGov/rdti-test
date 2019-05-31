@@ -24,6 +24,21 @@ main {
   flex-grow: 1;
 }
 
+h1 {
+  font-size: 3.750rem;
+  font-weight: bold;
+  color: $headingText;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid $secondaryUI;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+}
+
 // Header section
 // govau header
 .headergovau {
