@@ -1,5 +1,7 @@
 @import '../../node_modules/bootstrap/scss/bootstrap';
-@import './custom.scss';
-@import './signin.scss';
-@import './forms.scss';
-@import './alerts.scss';
+@import './variables';
+@import './custom';
+@import './signin';
+@import './forms';
+@import './alerts';
+@import './tables';

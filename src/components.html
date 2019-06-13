@@ -73,6 +73,8 @@
       <h1>Components</h1>
 
       <div class="row">
+
+        <!-- Side nav -->
         <div class="col-md-3">
           <ul class="sidenav">
             <li>side nav here</li>
@@ -114,12 +116,16 @@
             <option>5</option>
           </select>
             </div>
-            
+
             <div class="form-group">
               <label for="exampleFormControlTextarea1">Example textarea</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
 
+            <hr class="bigDivide">
+
+            <!-- Alerts -->
+            <h2>Alerts</h2>
             <div class="alert alert-info" role="alert" aria-live="polite" aria-labelledby="infoTitle">
               <p id="infoTitle">
                 <span class="sr-only">Information alert:</span> This is an information alert. Your account email address
@@ -159,8 +165,12 @@
               This is a dark alert—check it out!
             </div>
 
+            <hr class="bigDivide">
+
+            <!-- Radio buttons -->
+            <h2>Radio Buttons</h2>
             <fieldset class="mb-5">
-              <legend class="mb-3">Radio buttons</legend>
+              <legend class="mb-3">Which radio button do you prefer?</legend>
               <div class="custom-control custom-radio">
                 <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
                 <label class="custom-control-label" for="customRadio1">Toggle this custom radio</label>
@@ -178,9 +188,258 @@
                 <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
                 <label class="custom-control-label" for="customRadioInline2">No</label>
               </div>
-
             </fieldset>
 
+            <hr class="bigDivide">
+
+            <!-- Accordion (collapse) -->
+            <h2>Accordion with link inside</h2>
+            <div class="accordion" id="accordionExample">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Collapsible Group Item #1
+        </button>
+                  </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                    non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                    tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil
+                    anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                    excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                    you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                      aria-controls="collapseTwo">
+          Collapsible Group Item #2
+        </button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                    non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                    tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil
+                    anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                    excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                    you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                      aria-controls="collapseThree">
+          Collapsible Group Item #3
+        </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                    non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                    tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil
+                    anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                    excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                    you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <hr class="bigDivide">
+
+            <!-- table panel (borrowed from ux.ato.gov.au)-->
+            <h2>Table Panel</h2>
+            <div class="table-panel">
+              <div class="table-panel-header">
+                <div class="col-xs-12">
+                  <h3>Breakdown of R&D Projects</h3>
+                </div>
+              </div>
+              <table class="adaptive table table-hover">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>
+                      <div class="text-right">Ref no.</div>
+                    </th>
+                    <th>
+                      <div class="text-right">Start and end dates</div>
+                    </th>
+                    <th>
+                      <div class="text-right">Expenditure</div>
+                    </th>
+                    <th>
+                      <div class="text-right">Status</div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table-row collapsed project" tabindex="0" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"
+                    aria-controls="collapseExample">
+                    <td data-header="Type">
+                      <div>Project</div>
+                    </td>
+                    <td data-header="Name">
+                      <div class="projectName">Mind-altering ice-cream</div>
+                    </td>
+                    <td data-header="Ref no.">
+                      <div class="text-right">IC3452</div>
+                    </td>
+                    <td data-header="Start and end dates">
+                      <div class="text-right">Mar 19 - Jun 19</div>
+                    </td>
+                    <td data-header="Expenditure">
+                      <div class="text-right">$17,800</div>
+                    </td>
+                    <td data-header="Status">
+                      <div class="text-right"><img src="public/images/icon-greentick.svg"></div>
+                    </td>
+                  </tr>
+
+
+
+                  <tr class="table-row collapsed has-details core" tabindex="0" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false"
+                    aria-controls="collapseExample">
+                    <td data-header="Type">
+                      <div>Core</div>
+                    </td>
+                    <td data-header="Name">
+                      <div class="projectName">Experiment One</div>
+                    </td>
+                    <td data-header="Ref no.">
+                      <div class="text-right"></div>
+                    </td>
+                    <td data-header="Start and end dates">
+                      <div class="text-right">Mar 19 - Jun 19</div>
+                    </td>
+                    <td data-header="Expenditure">
+                      <div class="text-right">$5,000</div>
+                    </td>
+                    <td data-header="Status" class="expand-cell">
+                      <a href="#collapseExample" onclick="return false" class="icon icon-accordion-expand">
+                        <div class="text-right errorLink">3 errors</div>
+                        <span class="sr-only">Expand row</span>
+                      </a>
+                    </td>
+                  </tr>
+
+                  <tr class="details-row">
+                    <td colspan="6">
+                      <div id="collapseExample2" class="collapse">
+                        <div class="collapse-content">
+                          <div class="container-fluid">
+                            <div class="errorDesc row">
+                              <div class="col fieldReference">What was the expenditure for this core activity? <span class="errorMsg">Answer required</span></div>
+                              <div class="col-sm-2">
+                                <a href="#">
+                                  <div class="text-right">View</div>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="errorDesc row">
+                              <div class="col fieldReference">Describe the core activity <span class="errorMsg">Answer required</span></div>
+                              <div class="col-sm-2">
+                                <a href="#">
+                                  <div class="text-right">View</div>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="errorDesc row">
+                              <div class="col fieldReference">What new knowledge was this core activity intended to produce? <span class="errorMsg">Answer required</span></div>
+                              <div class="col-sm-2">
+                                <a href="#">
+                                  <div class="text-right">View</div>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+
+
+                  <tr class="table-row collapsed has-details core" tabindex="0" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false"
+                    aria-controls="collapseExample">
+                    <td data-header="Type">
+                      <div>Core</div>
+                    </td>
+                    <td data-header="Name">
+                      <div class="projectName">Experiment Two</div>
+                    </td>
+                    <td data-header="Ref no.">
+                      <div class="text-right"></div>
+                    </td>
+                    <td data-header="Start and end dates">
+                      <div class="text-right">Mar 19 - Jun 19</div>
+                    </td>
+                    <td data-header="Expenditure">
+                      <div class="text-right">$5,000</div>
+                    </td>
+                    <td data-header="Status" class="expand-cell">
+                      <a href="#collapseExample" onclick="return false" class="icon icon-accordion-expand">
+                        <div class="text-right warningLink">2 warnings</div>
+                        <span class="sr-only">Expand row</span>
+                      </a>
+                    </td>
+                  </tr>
+                  <tr class="details-row">
+                    <td colspan="6">
+                      <div id="collapseExample3" class="collapse">
+                        <div class="collapse-content">
+                          <div class="container-fluid">
+                            <div class="errorDesc row">
+                              <div class="col-md-10 fieldReference">What was the expenditure for this core activity? <span class="warningMsg">This could be a problem. You should check it.</span></div>
+                              <div class="col-md-1">
+                                <a href="#">
+                                  <div class="text-right">View</div>
+                                </a>
+                              </div>
+                              <div class="col-md-1">
+                                <a href="#">
+                                  <div class="text-right">Allow</div>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="errorDesc row">
+                              <div class="col-md-10 fieldReference">Describe the core activity <span class="warningMsg">Are you sure about this? It seems odd.</span></div>
+                              <div class="col-md-1">
+                                <a href="#">
+                                  <div class="text-right">View</div>
+                                </a>
+                              </div>
+                              <div class="col-md-1">
+                                <a href="#">
+                                  <div class="text-right">Allow</div>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <hr class="bigDivide">
+
+            <!-- buttons -->
             <div class="buttonGroup">
               <button class="btn btn-default">Button default</button>
               <button class="btn btn-primary">Button primary</button>
