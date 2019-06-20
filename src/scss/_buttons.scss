@@ -1,0 +1,53 @@
+@import './variables';
+
+.btn {
+    color: $primaryInteractive;
+    font-weight: 600;
+    margin-right: 12px;
+    &:hover {
+        color: $primary;
+    }
+    &:focus {
+        outline: 2px solid #9cccfd;
+        outline-offset: 2px;
+    }
+}
+
+.btn-default {
+    border: 2px solid $primary;
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    &:hover {
+        background-color: $primary;
+        border-color: $navy;
+        color: white;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+    }
+    &:active {
+        background-color: $navy;
+        border-color: $navy;
+        color: white;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+    }
+}
+
+.btn-primary {
+    border: 2px solid $primary;
+    background-color: $primaryInteractive;
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: 6px;
+    &:hover {
+        background-color: $primary;
+        border-color: $navy;
+        color: white;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+    }
+    &:active {
+        background-color: $navy;
+        border-color: $navy;
+        color: white;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+    }
+}
