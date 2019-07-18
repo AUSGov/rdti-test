@@ -3,7 +3,7 @@
 .btn {
     color: $primaryInteractive;
     font-weight: 600;
-    margin-right: 12px;
+    margin-bottom: 0.75rem;
     &:hover {
         color: $primary;
     }
@@ -11,16 +11,19 @@
         outline: 2px solid #9cccfd;
         outline-offset: 2px;
     }
+    @media (min-width: 576px) {
+        margin-bottom: 0;
+    }
 }
 
 .btn-default {
     border: 2px solid $primary;
     background-color: white;
     padding: 1rem 2rem;
-    border-radius: 6px;
+    border-radius: 5px;
     &:hover {
         background-color: $primary;
-        border-color: $navy;
+        border-color: $primary;
         color: white;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
     }
@@ -37,10 +40,10 @@
     background-color: $primaryInteractive;
     padding: 1rem 2rem;
     color: white;
-    border-radius: 6px;
+    border-radius: 5px;
     &:hover {
         background-color: $primary;
-        border-color: $navy;
+        border-color: $primary;
         color: white;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
     }
@@ -49,5 +52,23 @@
         border-color: $navy;
         color: white;
         box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+    }
+}
+
+.buttonGroup {
+    border-top: 2px solid $buttonGroupBorder;
+    padding: 1.5rem 0 0 0;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @media (min-width: 576px) {
+        display: block;
+
+        .btn-primary {
+            float:right;
+        }
     }
 }
