@@ -1,0 +1,30 @@
+@import './variables';
+
+.sidenav {
+    padding-left: 0;
+    padding-inline-start: 0 !important;
+    margin-right: 16px;
+    li {
+        padding: 1rem 1.5rem;
+        list-style: none;
+        &:hover {
+            background-color: white;
+            display: block;
+        }
+        a {
+            color: $matteText;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    li.active {
+        border-left: 3px solid $bluePrimary;
+        background-color: white;
+        font-weight: 700;
+    }
+    .isDisabled {
+        color: $grey;
+        cursor: not-allowed;
+    }
+}
