@@ -13,6 +13,9 @@
         }
         a {
             color: $matteText;
+            font-size: 14px;
+            position: relative;
+            left: 8px;
             &:hover {
                 text-decoration: none;
             }
@@ -22,6 +25,21 @@
         border-left: 3px solid $bluePrimary;
         background-color: white;
         font-weight: 700;
+        &:before {
+            content: url('../public/images/icon-blueArrow.png');
+            position: relative;
+            left: -0.5rem;
+            top: 0rem;
+        }
+    }
+    li.complete {
+        font-weight: normal;
+        &:before {
+            content: url('../public/images/icon-complete.png');
+            position: relative;
+            left: -7px;
+            top: 4px;
+        }
     }
     .isDisabled {
         color: $grey;

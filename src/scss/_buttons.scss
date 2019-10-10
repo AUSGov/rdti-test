@@ -55,6 +55,10 @@
     }
 }
 
+.btn-tertiary {
+    border-bottom: 2px solid $primaryInteractive; 
+}
+
 .buttonGroup {
     border-top: 2px solid $buttonGroupBorder;
     padding: 1.5rem 0 0 0;
@@ -70,5 +74,50 @@
         .btn-primary {
             float:right;
         }
+    }
+}
+
+.addButton {
+    font-size: 1rem;
+    font-weight: 600;
+    color: $primaryInteractive;
+    border: 2px solid $primaryInteractive;
+    width: 100%;
+    display: block;
+    text-align: left;
+    padding: 1rem 1.5rem;
+    background-color: white;
+    position: relative;
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-height: 52px;
+        height: 100%;
+        min-width: 60px;
+        width: 15%;
+        max-width: 74px;
+        background-color: $primaryInteractive;
+        z-index: 2;
+        background-image: url("../public/images/icon-whiteplus.svg");
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+.addButton:hover {
+    color: $primary;
+    border: 2px solid $primary;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+    &:after {
+        background-color: $primary;
+    }
+}
+
+.addButton:active {
+    border-color: $navy;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+    &:after {
+        background-color: $navy;
     }
 }
