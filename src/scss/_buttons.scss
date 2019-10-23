@@ -100,6 +100,9 @@ i {
     &.minus {
         background: url('../public/images/icon-minus.svg') no-repeat;
     }
+    &.addOne {
+        background: url('../public/images/icon-plus.svg') no-repeat;
+    }
 }
 
 .delete {
@@ -116,8 +119,9 @@ i {
         border-bottom: 0.125em solid #C60200;
         filter: drop-shadow(0 0.15em 0.5em $darkGrey);
     }
-
 }
+
+
 /*    
 &.withIcon {
     margin-left: 1rem;
@@ -134,9 +138,6 @@ i {
     }
 }
 */
-
-
-
 
 
 .buttonGroup {
