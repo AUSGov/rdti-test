@@ -47,57 +47,58 @@ $slateTint1:                       #AAB2C3;
 $slateTint2:                       #DFE2EE;
  
 // Purple
-$purplePrimary:                    #5B43D0;
-$purpleInteractive:                #735FD7;
-$purpleTint1:                      #BDB4EC;
-$purpleTint2:                      #F1EEFA;
+$purplePrimary:                     #5B43D0;
+$purpleInteractive:                 #735FD7;
+$purpleTint1:                       #BDB4EC;
+$purpleTint2:                       #F1EEFA;
  
 // Magenta
-$magentaPrimary:                   #A42079;
-$magentaInteractive:               #B64D94;
-$magentaTint1:                     #DFB1D0;
-$magentaTint2:                     #FFECF3;
+$magentaPrimary:                    #A42079;
+$magentaInteractive:                #B64D94;
+$magentaTint1:                      #DFB1D0;
+$magentaTint2:                      #FFECF3;
  
 
 // -- Neutrals -- //
  
 // Greys
-$darkestGrey:                      #505050;
-$darkerGrey:                       #707070;
-$darkGrey:                         #A0A0A0;
-$grey:                             #C4C4C4;
-$lightGrey:                        #C7C7C7;
-$lighterGrey:                      #D8D8D8;
-$lightestGrey:                     #EBEBEB;
-$superLightGrey:                   #F5F5F5;
-$backgroundGrey:                   #FAFAFA;
-$buttonGroupBorder:                #D8DCE0;
+$darkestGrey:                       #505050;
+$darkerGrey:                        #737373;
+$darkGrey:                          #A0A0A0;
+$grey:                              #C4C4C4;
+$lightGrey:                         #C7C7C7;
+$lighterGrey:                       #D8D8D8;
+$lightestGrey:                      #EBEBEB;
+$superLightGrey:                    #F5F5F5;
+$backgroundGrey:                    #FAFAFA;
+$buttonGroupBorder:                 #D8DCE0;
 
 // --- Alerts --- //
  
 // Good
-$green:                            #368635;
-$greenInteractive:                 #219520;
-$greenTint1:                       #A6D5A6;
-$greenTint2:                       #E8F4E8;
+$green:                             #368635;
+$greenInteractive:                  #219520;
+$greenTint1:                        #A6D5A6;
+$greenTint2:                        #E8F4E8;
  
 // Warning
-$warning:                          #FF6F4F;
+$warning:                           #FF6F4F;
 
 // Not so good
-$red:                              #E22C2A;
-$redInteractive:                   #E75755;
-$redTint1:                         #F5B5B5;
-$redTint2:                         #FCE9E9;
- 
+$red:                               #E0221F;
+$redInteractive:                    #E75755;
+$redTint1:                          #F5B5B5;
+$redTint2:                          #FCE9E9;
+$tomato:                            #E22C2A;
 
 // --- Text --- //
-$headingText:                      #333333;
-$matteText:                        #474747;
-$link:                             #0063E8;
-$linkHover:                        #0F54C3;
-$linkVisited:                      #672F8D;
- 
+$headingText:                       #333333;
+$matteText:                         #474747;
+$greyText:                          #737373;
+$link:                              #0063E8;
+$linkHover:                         #0F54C3;
+$linkVisited:                       #672F8D;
 
-$primary-color:                    #282c34;
-$secondary-color:                  #61dafb;
+// --- Buttons --- //
+$tertiaryBtnUnderline:              #748FB8;
+

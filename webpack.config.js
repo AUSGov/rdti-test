@@ -115,6 +115,14 @@ const config = {
       filename: 'components.html',
       template: path.resolve(__dirname, './src/components.html'),
     }),
+    new HtmlWebPackPlugin({
+      filename: 'buttons.html',
+      template: path.resolve(__dirname, './src/buttons.html'),
+    }),
+    new HtmlWebPackPlugin({
+      filename: 'typography.html',
+      template: path.resolve(__dirname, './src/typography.html'),
+    }),
     /*new MiniCssExtractPlugin({
       filename: IS_DEV ? 'css/[name].css' : 'css/[name].[contenthash].css',
       chunkFilename: 'css/[id].css',
