@@ -32,6 +32,15 @@
             top: 0rem;
         }
     }
+    li.inprogress {
+        font-weight: normal;
+        &:before {
+            content: url('../public/images/icon-inprogress.svg');
+            position: relative;
+            left: -7px;
+            top: 3px;
+        }
+    }
     li.complete {
         font-weight: normal;
         &:before {
