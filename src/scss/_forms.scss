@@ -6,7 +6,8 @@
 }
 
 .custom-select {
-    -webkit-appearance:none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
     appearance: none;
 }
 
@@ -97,6 +98,8 @@
 .input-group-text {
     background-color: $inputPrependGrey;
     border: 2px solid $grey;
+    font-weight: 600;
+    color: $greyText;
 }
 
 .input-group > .input-group-prepend > .input-group-text {
