@@ -17,31 +17,35 @@
     }
 }
 .alert-info {
+    color: $infoAlert;
     border-left-color: $bluePrimary;
     background-image: url('../public/images/icon-info.svg');
     background-position: 1.250rem center;
-    background-size: 32px;
+    background-size: 28px;
     padding-left: 4.5rem;
 }
 .alert-success {
+    color: $green;
     border-left-color: $green;
     background-image: url('../public/images/icon-success.svg');
     background-position: 1.250rem center;
-    background-size: 32px;
+    background-size: 28px;
     padding-left: 4.5rem;
 }
 .alert-warning {
+    color: $warning;
     border-left-color: $warning;
     background-image: url('../public/images/icon-warning.svg');
     background-position: 1.250rem center;
-    background-size: 32px;
+    background-size: 28px;
     padding-left: 4.5rem;
 }
 .alert-danger {
+    color: $red;
     border-left-color: $red;
     background-image: url('../public/images/icon-danger.svg');
     background-position: 1.250rem center;
-    background-size: 32px;
+    background-size: 28px;
     padding-left: 4.5rem;
 }
 .alert-secondary {

@@ -2,7 +2,7 @@
     padding: 1rem;
     height: calc(2em + 1.5em + 2px);
     border-radius: 0;
-    border: 2px solid #D8D8D8;
+    border: 2px solid $grey;
 }
 
 .custom-select {
@@ -90,4 +90,19 @@
 }
 .custom-control {
     padding-left: 0;
+}
+
+// For dollar amount input ---------
+
+.input-group-text {
+    background-color: $inputPrependGrey;
+    border: 2px solid $grey;
+}
+
+.input-group > .input-group-prepend > .input-group-text {
+        border-right: 1px solid $grey;
+}
+
+.input-group > .input-group-append > .input-group-text {
+        border-left: 1px solid $grey;
 }

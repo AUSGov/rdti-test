@@ -61,7 +61,7 @@
     font-weight: 500;
     background-color: transparent;
     border: none;
-    border-bottom: 0.125em solid transparent; 
+    border-bottom: 0.125em solid $tertiaryBtnUnderline; 
     padding: 0;
 
     &:hover, &:focus {
@@ -76,7 +76,7 @@
     }
 
     &.withIcon {
-        margin-left: 0.5em;
+        margin-left: 1rem;
         &:hover, &:focus {
             filter: none;
         }
@@ -86,7 +86,7 @@
     }
 }
 
-/*i {
+i {
     content: '';
     display: inline-block;
     width: 1.250rem;
@@ -103,11 +103,11 @@
     &.addOne {
         background: url('../public/images/icon-plus.svg') no-repeat;
     }
-}*/
+}
 
 .delete {
     color: $red;
-    border-bottom: 0.125em solid transparent; 
+    border-bottom: 0.125em solid $redInteractive; 
 
     &:hover, &:focus {
         color: #C60200;
@@ -121,33 +121,24 @@
     }
 }
 
-.withIcon {
+
+/*    
+&.withIcon {
+    margin-left: 1rem;
     &:before {
         content: '';
         display: inline-block;
+        background: url('../public/images/icon-search.svg') no-repeat;
         width: 1.250rem;
         height: 1.250rem;
         color: $primary;
-        position: relative;
-        left: -0.5em;
-        top: 3px;
-    }
-    &.searchAgain {
-        &:before {
-            background: url('../public/images/icon-search.svg') no-repeat;
-        }
-    }
-    &.delete {
-        &:before {
-            background: url('../public/images/icon-minus.svg') no-repeat;
-        }
-    }
-    &.add {
-        &:before {
-            background: url('../public/images/icon-plus.svg') no-repeat;
-        }
+        position: absolute;
+        left: 0.250em;
+        bottom: 0.125em;
     }
 }
+*/
+
 
 .buttonGroup {
     border-top: 2px solid $buttonGroupBorder;
