@@ -93,13 +93,13 @@
     padding-left: 0;
 }
 
-// For dollar amount input ---------
+// For currency input ---------
 
 .input-group-text {
     background-color: $inputPrependGrey;
     border: 2px solid $grey;
     font-weight: 600;
-    color: $greyText;
+    color: $matteText;
 }
 
 .input-group > .input-group-prepend > .input-group-text {

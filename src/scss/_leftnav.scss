@@ -5,23 +5,25 @@
     padding-inline-start: 0 !important;
     margin-right: 16px;
     li {
-        padding: 1rem 1.5rem;
+        padding: 0;
         list-style: none;
         &:hover {
             background-color: white;
-            display: block;
         }
         a {
             color: $matteText;
             font-size: 14px;
-            position: relative;
-            left: 8px;
+            // position: relative;
+            // left: 8px;
+            padding: 1rem 1.5rem;
+            display: block;
+            width: 100%;
             &:hover {
                 text-decoration: none;
             }
         }
     }
-    li.active {
+    a.active {
         border-left: 3px solid $bluePrimary;
         background-color: white;
         font-weight: 700;
