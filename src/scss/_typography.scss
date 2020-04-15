@@ -1,0 +1,17 @@
+@import './variables';
+
+.groupLabel {
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: 600;
+    color: $headingText;
+    margin-bottom: 1rem;
+}
+
+.helpText {
+    font-size: 14px;
+    line-height: 1.43;
+    font-weight: 400;
+    color: $helpText;
+    margin-bottom: 1rem;
+}

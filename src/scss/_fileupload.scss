@@ -1,0 +1,119 @@
+@import './variables';
+
+.fileUpload {
+    margin: 1.5rem auto;
+}
+
+.fileUploadDropzone {
+    padding: 2.5rem 2rem 2.325rem;
+    border: 2px dotted $grey;
+    background: #ffffff;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    @media (min-width: 768px) {
+        margin-bottom: 0.25rem;
+    }
+}
+
+.fileUploadDropzoneIcon { 
+    width: 100%; 
+    font-size: 1.375rem;
+    line-height: 1.23;
+    height: 2rem;
+    width: 2rem;
+    margin: 0 auto;
+}
+
+.fileUploadDropzoneTextWrapper {    
+    margin: 1.5rem auto;
+}
+
+.fileUploadDropzoneText { 
+    width: 100%; 
+    font-size: 1rem;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25rem;
+    letter-spacing: normal;
+    text-align: center;
+    color: #606060;
+    margin-bottom: 0.25rem;
+}
+
+.fileUploadList {   
+    width: 100%; 
+}
+
+.fileUploadListScrollWrapper {   
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-y: scroll;
+}
+
+.fileUploadRow {
+    font-size: 0.750rem;
+    margin-bottom: 1.250rem;
+}
+
+.fileName {
+    color: #474747; 
+}
+.fileStatus {
+    padding-left: 0.5rem; 
+    padding-right: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.fileUploadTickIcon {
+    display: inline-block;
+    text-align: right;
+    justify-content: right;
+    svg {
+        height: 1rem !important;
+        width: 1rem !important;
+    }
+}
+
+.fileUploadProgress {
+    height: 4px;
+    margin: auto 0.5rem; 
+}
+
+.fileUploadButton {   
+    width: 100%; 
+    margin: 0;
+    padding: 1rem 0;
+}
+
+.defaultButton {
+    margin-bottom: 0;
+    width: unset;
+}
+
+.primaryButton {
+    float: right;
+}
+
+.modalFooterWithTwoButtons {
+    display: block;
+}
+
+.modalDialog {
+    max-width: 536px;
+}
+
+.modalFileUploadFooter {
+    display: block;
+}
+
+.defaultButton {
+    margin-bottom: 0;
+    width: unset;
+}
+
+.primaryButton {
+    float: right;
+}
